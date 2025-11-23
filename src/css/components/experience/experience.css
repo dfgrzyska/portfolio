@@ -1,0 +1,129 @@
+/* Experience Section */
+.experience {
+    padding: 80px 0;
+    background-color: var(--bg-primary);
+}
+
+.experience h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.experience-timeline {
+    margin: 3rem 0;
+}
+
+.company-section {
+    display: flex;
+    gap: 2rem;
+    margin: 3rem 0;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.company-logo {
+    width: 60px;
+    height: 60px;
+    background-color: var(--bg-card);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    flex-shrink: 0;
+}
+
+.company-details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.date {
+    color: var(--accent-green);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.company-details h4 {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.company-details ul {
+    list-style: none;
+    color: var(--text-secondary);
+    margin: 1rem 0;
+}
+
+.company-details li {
+    padding: 0.3rem 0;
+}
+
+.company-details li:before {
+    content: "• ";
+    color: var(--accent-green);
+    margin-right: 0.5rem;
+}
+
+.tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.tags span {
+    background-color: var(--bg-card);
+    padding: 0.3rem 0.8rem;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    border: 1px solid var(--border-color);
+}
+
+.education-research {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-top: 4rem;
+}
+
+.education h3,
+.research h3 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.education h3 i,
+.research h3 i {
+    color: var(--accent-green);
+}
+
+.timeline-item {
+    margin: 2rem 0;
+    padding-left: 1.5rem;
+    border-left: 2px solid var(--border-color);
+}
+
+.timeline-item .date {
+    margin-bottom: 0.5rem;
+}
+
+.timeline-item h4 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.timeline-item p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .education-research {
+        grid-template-columns: 1fr;
+    }
+}
